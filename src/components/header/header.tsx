@@ -24,7 +24,7 @@ export const Header: React.FC<HeaderProps> = ({ breadImage }) => {
 
   return (
     <header className="bg-gray-100 border-b border-gray-300">
-      <div className="container mx-auto flex justify-between items-center p-4">
+      <div className="container mx-auto flex justify-between items-center p-3">
         <div className="flex justify-start">
           <Image src={breadImage} alt="logo" width={50} height={50} />
           <h1 className="text-2xl font-secondary">대빵이</h1>
