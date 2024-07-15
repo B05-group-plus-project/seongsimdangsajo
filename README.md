@@ -66,29 +66,29 @@
  
 * 메인화면
 
-  ![메인화면](gif)
+  ![메인화면](https://github.com/user-attachments/assets/c18bed6a-8209-44a5-ba13-b0d84b5bc9a2)
 
 * 업버튼
   
-  ![업버튼](gif)
-
+  ![업버튼](https://github.com/user-attachments/assets/343f45fc-9978-4b02-be7a-68e56274cafe)
+  
 
 ### 마이페이지
 
 * 좋아요 목록
 
-  ![좋아요 목록](gif)
+  ![좋아요 목록](https://github.com/user-attachments/assets/d4e58c14-10f8-466f-b163-fe4b40e83fce)
 
 * 프로필 수정
   
-  ![프로필 수정](gif)
+  ![프로필 수정](https://github.com/user-attachments/assets/3441d4af-12f2-4e12-bbeb-5bd36d104ce9)
 
 
 ### 검색페이지
 
 * 검색어 기반으로 검색
 
-  ![기능구현](gif)
+  ![기능구현](https://github.com/user-attachments/assets/46d1b33f-2e88-445a-a583-40699def2651)
 
 
 ### 디테일페이지
