@@ -18,7 +18,7 @@ export const LikeBakeryList = () => {
 
   const fetchBakeryData = async () => {
     try {
-      //// `userId`를 사용하여 좋아요한 bakery의 ID 리스트를 가져오기
+      // `userId`를 사용하여 좋아요한 bakery의 ID 리스트를 가져오기
       const bakeryIds = await getUserLikedBakeryIds(userId);
 
       if (bakeryIds.length > 0) {
@@ -30,6 +30,7 @@ export const LikeBakeryList = () => {
           image: item.image || "",
           phone: item.phone || "",
           address: item.address || "",
+          comment_count: item.comment_count || 0,
         }));
 
         setBakeryList(formattedBakeryData);
@@ -71,6 +72,7 @@ export const LikeBakeryList = () => {
                 image={bakery.image}
                 phone={bakery.phone}
                 address={bakery.address}
+                commentCount={bakery.comment_count || 0}
               />
             </Link>
           </div>
