@@ -5,7 +5,7 @@ import { useUserStore } from "@/store/userStore";
 import { Comment } from "@/types/comment";
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import UserProfile from "../commons/profile/UserProfile";
-import Toast from "../commons/toast/Toast";
+import Toast from "../commons/Toast/Toast";
 import CommentItem from "./CommentItem";
 
 type CommentProps = {
@@ -67,7 +67,7 @@ const CommentList: React.FC<CommentProps> = ({ bakery_id: bakeryId }) => {
       <form className="flex items-center gap-2" onSubmit={handleSubmitComment}>
         {/*유저 프로필 */}
         <div>
-          <UserProfile src={profile?.length === 0 ? profile : ""} width={52} height={52} />
+          <UserProfile src={profile} width={52} height={52} />
         </div>
         {/* <Image src={profile as string} alt="유저 프로필" width={80} height={80} /> */}
         <input
@@ -84,11 +84,11 @@ const CommentList: React.FC<CommentProps> = ({ bakery_id: bakeryId }) => {
         {/* 댓글 목록 */}
         {commentList.map((comment) => {
           return (
-            <div key={comment.comment_id}>
+            <div key={comment.id}>
               <CommentItem
                 content={comment.content}
                 userId={comment.user_id}
-                commentId={comment.comment_id as number}
+                commentId={comment.id as number}
                 onCommentUpdate={fetchCommentList}
               />
             </div>
