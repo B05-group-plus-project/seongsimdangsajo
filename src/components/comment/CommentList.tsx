@@ -5,7 +5,7 @@ import { useUserStore } from "@/store/userStore";
 import { Comment } from "@/types/comment";
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import UserProfile from "../commons/profile/UserProfile";
-import Toast from "../commons/Toast/ConfirmToast";
+import Toast from "../commons/Toast/Toast";
 import CommentItem from "./CommentItem";
 
 type CommentProps = {
