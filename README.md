@@ -5,7 +5,7 @@
 <br />
 
 # 대빵이🍞
-**빵의 도시 대전의 빵집 정보를 한눈에 알아볼 수 있는 사이트**
+**빵의 도시 대전의 빵집 정보를 한눈에 알아볼 수 있는 웹 사이트**
 
 <br />
 
@@ -45,21 +45,25 @@
 
 * 로그인
 
-  ![로그인](gif)
+  ![로그인](https://github.com/user-attachments/assets/02448abf-fa91-4e98-9261-0e33b7f5fc07)
+
 
 * 유호성 검사
   
-  ![유호성 검사](gif)
+  ![유호성 검사](https://github.com/user-attachments/assets/9e2da97c-79e2-4da9-95c4-07eb28e7d52b)
 
-  ### 회원가입
+
+### 회원가입
 
 * 회원가입
 
-  ![기능구현](gif)
+  ![기능구현](https://github.com/user-attachments/assets/84107057-6ead-4bbd-8bae-9a47b7b2af53)
+
 
 * 유호성 검사
   
-  ![기능구현](gif)
+  ![기능구현](https://github.com/user-attachments/assets/c98d6b7c-c66f-42d7-bfcc-adbb301e3542)
+
 
 
 ### 메인화면
@@ -95,11 +99,20 @@
 
 * 댓글 CRUD
 
-  ![댓글 CRUD](gif)
+  ![댓글 CRUD](https://github.com/user-attachments/assets/8bda0ea9-184c-4804-8c61-55c20ee4b6a4)
+
 
 * 지도 외부 페이지
   
-  ![지도 외부 페이지](gif)
+  ![지도 외부 페이지](https://github.com/user-attachments/assets/3be8fdd3-fd82-45ca-a7b7-545d03780aaa)
+
+
+### 미들웨어
+
+* 미들웨어
+  
+  ![미들웨어](https://github.com/user-attachments/assets/1e7000ca-b49a-4073-9bbe-f8970f25a787)
+
 
 <br />
 
