@@ -56,8 +56,4 @@
   .shared-text {
     @apply text-basics my-3;
   }
-
-  .h-calc {
-    height: calc(100vh - 70px);
-  }
 }
